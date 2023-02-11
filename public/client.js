@@ -38,3 +38,4 @@ window.addEventListener('load', () => {
 socket.addEventListener('open', (event) => {
     console.log('WebSocket connected');
 });
+
