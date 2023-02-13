@@ -1,5 +1,5 @@
 const switchBtn = document.getElementById('switchBtn');
-const socket = new WebSocket('ws://localhost:3000');
+const socket = new WebSocket('ws://localhost:10000');
 const offlineButtonArray = document.querySelectorAll('.offline-button');
 const completeCurrentButton = document.querySelector('.complete-current-button');
 const callNextButton = document.querySelector('.call-next-button');

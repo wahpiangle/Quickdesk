@@ -1,4 +1,4 @@
-const socket = new WebSocket('ws://localhost:3000');
+const socket = new WebSocket('ws://localhost:10000');
 const switchBtn = document.getElementById('switchBtn');
 const statusImage = document.querySelector('.online-status');
 const takeNumberBtn = document.querySelector('.take-number-button');
