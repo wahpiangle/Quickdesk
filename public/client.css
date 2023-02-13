@@ -71,7 +71,13 @@ nav{
 button{
     margin: 1rem;
     padding: 0.8rem;
+    cursor: pointer;
 }
 nav{
     margin-bottom: 1rem;
+}
+
+.now-serving, .last-number{
+    display: flex;
+    gap: 2px;
 }
